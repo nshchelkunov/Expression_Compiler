@@ -15,7 +15,6 @@ public static class Syntax_Validator
         {
             return false;
         } 
-
         // latest token == number, left token == operator 
         // or the last token == ')', left token ==  number or ')'
         if (option == "last" && 
@@ -24,7 +23,6 @@ public static class Syntax_Validator
         {  
             return false;
         }
-
         // tokens to the left and right exist
         if (option == "between")
         {
